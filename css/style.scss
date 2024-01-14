@@ -13,3 +13,76 @@ body{
 img{
     max-width: 100%;
 }
+
+// ======== Login Form ========
+.lf-loginForm{
+    width: 32rem;
+    margin: auto;
+    background-color: #CAD3C8;
+    margin-top: 8rem;
+    // padding: 2rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    form{
+        padding: 2rem 1.5rem;
+        .lf-input{
+            height: 3.5rem;
+            position: relative;
+            margin-bottom: 1rem;
+            // border-radius: 0.5rem;
+            input{
+                font-size: 1.3rem;
+                height: 100%;
+                width: 100%;
+                outline: none;
+                // padding: 0.5rem;
+                padding-left: 4rem;
+                border: 1px solid #58b19f;
+                border-radius: 0.5rem;
+                transition: all 0.3s ease;
+            }
+            input:focus{
+                box-shadow: 0px 0px 5px 5px rgba(88, 177, 159, 0.5);
+            }
+            i{
+                position: absolute;
+                width: 3.5rem;
+                height: 100%;
+                background-color: #58B19F;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.3rem;
+                color: #fff;
+                border-radius: 0.5rem 0 0 0.5rem;
+            }
+            .lf-submit_btn{
+                padding-left: 0;
+                background-color: #58B19F;
+                cursor: pointer;
+                color: #fff;
+                font-size: 1.5rem;
+            }
+        }
+        .lf-form_text{
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            a{
+                color: #3a776b;
+                text-decoration: none;
+            }
+            span{
+                color: #FC427B;
+            }
+        }
+    }
+}
+.lf-title{
+    text-align: center;
+    color: #fff;
+    background-color: #55E6C1;
+    padding: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
